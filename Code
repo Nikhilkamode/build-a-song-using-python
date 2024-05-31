@@ -1,0 +1,20 @@
+# description: 
+from earsketch import *
+setTempo(120)
+sound= NIKHILKAMODE_MADONA
+track= 1
+start=1
+end= 3
+fitMedia (sound,track,start,end)
+
+sound = NIKHILKAMODE_MADONA1
+track=2
+start=3
+end=5
+fitMedia(sound,track,start,end)
+
+sound=NIKHILKAMODE_MADONA3
+track=3
+start=5
+end=11
+fitMedia (sound,track,start,end)
